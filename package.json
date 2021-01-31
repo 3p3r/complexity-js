@@ -1,0 +1,35 @@
+{
+  "name": "complexity",
+  "version": "1.0.0",
+  "description": "multi-language source code complexity calculator",
+  "main": "index.js",
+  "scripts": {
+    "install": "npip install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3p3r/complexity-js.git"
+  },
+  "keywords": [
+    "halstead",
+    "complexity",
+    "report"
+  ],
+  "author": "Sepehr Laal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3p3r/complexity-js/issues"
+  },
+  "homepage": "https://github.com/3p3r/complexity-js#readme",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "lodash": "^4.17.20",
+    "nopy": "^0.2.7",
+    "source-code-tokenizer": "^0.1.5"
+  },
+  "python": {
+    "dependencies": {
+      "guesslang": ">=2.0.1"
+    }
+  }
+}
